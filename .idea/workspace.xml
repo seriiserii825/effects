@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6653d18-8e3f-4c19-88f3-ed2c5cefd74c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/sass/blocks/menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Effects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Effects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/sass/blocks/sandwitch.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/blocks/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/blocks/menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/my.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/template.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/template.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573885638539</updated>
       <workItem from="1573885639878" duration="1339000" />
-      <workItem from="1573887012394" duration="2133000" />
+      <workItem from="1573887012394" duration="5868000" />
     </task>
     <servers />
   </component>

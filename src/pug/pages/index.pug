@@ -1,31 +1,45 @@
 extends template
 
 block css
-	//- link(rel="stylesheet" type="text/css" href="assets/i/svg/bg/css/sprite.css")
-	link(rel="stylesheet" type="text/css" href="assets/css/my.css")
+    //- link(rel="stylesheet" type="text/css" href="assets/i/svg/bg/css/sprite.css")
+    link(rel="stylesheet" type="text/css" href="assets/css/my.css")
 
 block title
-	title Main
+    title Main
 
 block content
-	include ../includes/mixins
-	.hidden
-		include ../../../build/assets/i/svg/inline/sprite.svg
+    include ../includes/mixins
+    .hidden
+        include ../../../build/assets/i/svg/inline/sprite.svg
 
-	header
-		ul.main-menu
-			li
-				a(href="#") Home
-			li
-				a(href="#") Services
-			li
-				a(href="#") Categories
-			li
-				a(href="#") Pages
-			li
-				a(href="#") Contacts
+    header.main-header
+        .main-header-top
+            .container
+                .sandwitch
+                    .sandwitch__line.sandwitch__line--top
+                    .sandwitch__line.sandwitch__line--middle
+                    .sandwitch__line.sandwitch__line--bottom
 
-	include ../includes/scripts/ie-scripts
+                ul.main-menu#js-main-menu
+                    li
+                        a.active(href="#") Home
+                    li
+                        a(href="#") Services
+                    li
+                        a(href="#") Categories
+                    li
+                        a(href="") Pages
+                        ul.sub-menu
+                            li
+                                a(href="#") Page 1
+                            li
+                                a(href="#") Page 2
+                            li
+                                a(href="#") Page 3
+                    li
+                        a(href="#") Contacts
+
+    include ../includes/scripts/ie-scripts
 
 block scripts
-	script(src="assets/libs/jquery-easy-scroll/jquery.easeScroll.js")
+    script(src="assets/libs/jquery-easy-scroll/jquery.easeScroll.js")

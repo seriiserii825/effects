@@ -16,7 +16,26 @@ $(function () {
     touchpadSupport: true,
     fixedBackground: true
   });
+  let mainMenu = $('#js-main-menu');
 
+  let showSubMenu = function(){
+    $('#js-main-menu > li > a').on('click', function (e) {
+
+    	if($(this).next().hasClass('sub-menu')){
+    	  e.preventDefault();
+          $(this).next().slideToggle();
+        }
+    });
+  };
+  showSubMenu();
+
+  let sandwitch = function () {
+    $('.sandwitch').on('click', function () {
+      mainMenu.toggleClass('active');
+      $(this).toggleClass('sandwitch--active');
+    });
+  };
+  sandwitch();
 });
 
 
