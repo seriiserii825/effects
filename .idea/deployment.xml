@@ -5,8 +5,11 @@
       <paths name="hostland">
         <serverdata>
           <mappings>
-            <mapping deploy="/host1670806.hostland.pro/htdocs/effects" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/host1670806.hostland.pro/htdocs/effects" local="$PROJECT_DIR$/build" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/node_modules" />
+          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>
