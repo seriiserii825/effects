@@ -5,7 +5,7 @@ block css
     link(rel="stylesheet" type="text/css" href="assets/css/my.css")
 
 block title
-    title Main
+    title Image zoom
 
 block content
     include ../includes/mixins
@@ -13,6 +13,10 @@ block content
         include ../../../build/assets/i/svg/inline/sprite.svg
 
     include ../includes/header
+
+    .container
+        .img-zoom
+            img(src="assets/i/image-zoom.jpg" alt="")
 
     include ../includes/scripts/ie-scripts
 
