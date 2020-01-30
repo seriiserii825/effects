@@ -73,3 +73,56 @@ p {
 		transition: all .5s;
 	}
 }
+
+.flipcard {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 450px;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+	border-radius: 8px;
+	cursor: pointer;
+	&:hover .flipcard__front {
+		transform: rotateY(-180deg);
+	}
+	&:hover .flipcard__back {
+		transform: rotateY(0);
+	}
+	&__front {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url('../i/flipcard-front.jpg') center no-repeat;
+		backface-visibility: hidden;
+		background-size: cover;
+		border-radius: 8px;
+		transform-style: preserve-3d;
+		overflow: hidden;
+		z-index: 100;
+		transition: all .6s ease;
+		box-shadow: 0 0 8px rgba(0,0,0,.3);
+	}
+	&__back {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url('../i/flipcard-back.jpg') center no-repeat;
+		background-size: cover;
+		backface-visibility: hidden;
+		border-radius: 8px;
+		transform: rotateY(180deg);
+		transform-style: preserve-3d;
+		overflow: hidden;
+		z-index: 99;
+		transition: all .6s ease;
+		box-shadow: 0 0 8px rgba(0,0,0,.3);
+	}
+}
+
