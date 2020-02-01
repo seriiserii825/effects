@@ -492,7 +492,7 @@ p {
   flex-direction: column;
   align-items: center;
   height: 100%;
-  border-right: 3px solid cloud-burst;
+  border-right: 3px solid #9F658E;
   cursor: pointer;
 }
 
@@ -515,7 +515,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #32419e;
+  background: #9F658E;
   opacity: 0.3;
   z-index: -1;
   transition: all 0.3s;
@@ -528,7 +528,6 @@ p {
   align-items: center;
   justify-content: center;
   margin-top: 30%;
-  opacity: 0;
   transition: all 0.5s;
 }
 
@@ -541,7 +540,7 @@ p {
 .fullscreen-menu__icon {
   display: block;
   font-size: 96px;
-  fill: #fff;
+  color: #fff;
   transition: color 0.6s;
 }
 

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6653d18-8e3f-4c19-88f3-ed2c5cefd74c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/css/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/css/my.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/css/my.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/css/my.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/sass/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/my.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/partials/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/partials/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +64,7 @@
       <workItem from="1580542786975" duration="22000" />
       <workItem from="1580542821805" duration="64000" />
       <workItem from="1580542898380" duration="567000" />
-      <workItem from="1580544192141" duration="3987000" />
+      <workItem from="1580544192141" duration="4477000" />
     </task>
     <servers />
   </component>
@@ -101,9 +105,9 @@
       <screen x="0" y="25" width="1600" height="875" />
     </state>
     <state x="493" y="292" key="com.intellij.ide.util.TipDialog/0.25.1600.875@0.25.1600.875" timestamp="1580542678166" />
-    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1580546957239">
+    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1580548433480">
       <screen x="0" y="25" width="1600" height="875" />
     </state>
-    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup/0.25.1600.875@0.25.1600.875" timestamp="1580546957239" />
+    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup/0.25.1600.875@0.25.1600.875" timestamp="1580548433480" />
   </component>
 </project>
