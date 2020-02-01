@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6653d18-8e3f-4c19-88f3-ed2c5cefd74c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/3d-flip.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/cities.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/sass/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/my.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/3d-flip.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/3d-flip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image-zoom.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/image-zoom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/includes/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/includes/header.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,10 +34,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pug/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -59,6 +61,11 @@
       <workItem from="1580367583133" duration="217000" />
       <workItem from="1580408512998" duration="1831000" />
       <workItem from="1580416624944" duration="1823000" />
+      <workItem from="1580542676004" duration="95000" />
+      <workItem from="1580542786975" duration="22000" />
+      <workItem from="1580542821805" duration="64000" />
+      <workItem from="1580542898380" duration="567000" />
+      <workItem from="1580544192141" duration="980000" />
     </task>
     <servers />
   </component>
@@ -79,17 +86,29 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="554" y="337" width="484" height="257" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1580542691794">
+      <screen x="0" y="25" width="1600" height="875" />
+    </state>
+    <state x="554" y="337" width="484" height="257" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.25.1600.875@0.25.1600.875" timestamp="1580542691794" />
     <state x="411" y="60" width="770" height="810" key="CommitChangelistDialog2" timestamp="1580367494798">
       <screen x="0" y="25" width="1600" height="875" />
     </state>
     <state x="411" y="60" width="770" height="810" key="CommitChangelistDialog2/0.25.1600.875@0.25.1600.875" timestamp="1580367494798" />
-    <state x="304" y="100" width="992" height="731" key="SettingsEditor" timestamp="1580367718537">
+    <state x="583" y="209" width="426" height="513" key="FileChooserDialogImpl" timestamp="1580542689292">
       <screen x="0" y="25" width="1600" height="875" />
     </state>
-    <state x="304" y="100" width="992" height="731" key="SettingsEditor/0.25.1600.875@0.25.1600.875" timestamp="1580367718537" />
-    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1580409406796">
+    <state x="583" y="209" width="426" height="513" key="FileChooserDialogImpl/0.25.1600.875@0.25.1600.875" timestamp="1580542689292" />
+    <state x="304" y="100" width="992" height="731" key="SettingsEditor" timestamp="1580542884217">
       <screen x="0" y="25" width="1600" height="875" />
     </state>
-    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup/0.25.1600.875@0.25.1600.875" timestamp="1580409406796" />
+    <state x="304" y="100" width="992" height="731" key="SettingsEditor/0.25.1600.875@0.25.1600.875" timestamp="1580542884217" />
+    <state x="493" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1580542678166">
+      <screen x="0" y="25" width="1600" height="875" />
+    </state>
+    <state x="493" y="292" key="com.intellij.ide.util.TipDialog/0.25.1600.875@0.25.1600.875" timestamp="1580542678166" />
+    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1580545261994">
+      <screen x="0" y="25" width="1600" height="875" />
+    </state>
+    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup/0.25.1600.875@0.25.1600.875" timestamp="1580545261994" />
   </component>
 </project>
