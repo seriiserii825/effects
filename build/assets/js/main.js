@@ -2,8 +2,8 @@
 
 $(function () {
   /*
-      https://www.jqueryscript.net/animation/Smooth-Mouse-Wheel-Scrolling-Plugin-With-jQuery-easeScroll.html
-      ===========================*/
+  	https://www.jqueryscript.net/animation/Smooth-Mouse-Wheel-Scrolling-Plugin-With-jQuery-easeScroll.html
+  	===========================*/
   $("html").easeScroll({
     frameRate: 60,
     animationTime: 1000,
@@ -39,7 +39,25 @@ $(function () {
   };
 
   sandwitch();
+
+  var fullscreenMenuAction = function fullscreenMenuAction() {
+    var fullscreenMenu = $('#js-fullscreen-menu');
+    fullscreenMenu.addClass('show');
+    $('#js-fullscreen-menu .fullscreen-menu__item').on('mouseenter', function () {
+      var dataFullscreenMenu = $(this).attr('data-fullscreen-menu');
+
+      if (fullscreenMenu.hasClass('show')) {
+        console.log('Has class show');
+        fullscreenMenu.removeClass('show');
+        fullscreenMenu.css({
+          'background-image': 'url(assets/i/fullscreen-menu/' + dataFullscreenMenu + ')'
+        });
+        setTimeout(function () {
+          fullscreenMenu.addClass('show');
+        }, 200);
+      }
+    });
+  };
+
+  fullscreenMenuAction();
 });
-
-
-
