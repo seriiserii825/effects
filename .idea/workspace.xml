@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6653d18-8e3f-4c19-88f3-ed2c5cefd74c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/3d-flip.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/sass/blocks/gallery-3d.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/gallery-rotate.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/3d-flip.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/3d-flip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/css/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/css/my.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/css/my.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/css/my.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image-zoom.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/image-zoom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/sass/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/my.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/includes/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/includes/header.pug" afterDir="false" />
     </list>
@@ -13,9 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,17 +28,18 @@
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pug/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -63,33 +68,24 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="411" y="60" width="770" height="810" key="CommitChangelistDialog2" timestamp="1580367494798">
-      <screen x="0" y="25" width="1600" height="875" />
+    <state x="2543" y="270" width="672" height="678" key="search.everywhere.popup" timestamp="1594911849648">
+      <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state x="411" y="60" width="770" height="810" key="CommitChangelistDialog2/0.25.1600.875@0.25.1600.875" timestamp="1580367494798" />
-    <state x="304" y="100" width="992" height="731" key="SettingsEditor" timestamp="1580367718537">
-      <screen x="0" y="25" width="1600" height="875" />
-    </state>
-    <state x="304" y="100" width="992" height="731" key="SettingsEditor/0.25.1600.875@0.25.1600.875" timestamp="1580367718537" />
-    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1580409406796">
-      <screen x="0" y="25" width="1600" height="875" />
-    </state>
-    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup/0.25.1600.875@0.25.1600.875" timestamp="1580409406796" />
+    <state x="2543" y="270" width="672" height="678" key="search.everywhere.popup/0.25.1680.1025/1920.0.1920.1200@1920.0.1920.1200" timestamp="1594911849648" />
   </component>
 </project>

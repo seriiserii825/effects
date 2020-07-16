@@ -1,0 +1,38 @@
+extends template
+
+block css
+    //- link(rel="stylesheet" type="text/css" href="assets/i/svg/bg/css/sprite.css")
+    link(rel="stylesheet" type="text/css" href="assets/css/my.css")
+
+block title
+    title Main
+
+block content
+    include ../includes/mixins
+    .hidden
+        include ../../../build/assets/i/svg/inline/sprite.svg
+
+    include ../includes/header
+
+    .gallery-3d
+        span(style="--i:1;")
+            img(src="assets/i/galler-3d/1.jpg")
+        span(style="--i:2;")
+            img(src="assets/i/galler-3d/2.jpg")
+        span(style="--i:3;")
+            img(src="assets/i/galler-3d/3.jpg")
+        span(style="--i:4;")
+            img(src="assets/i/galler-3d/4.jpg")
+        span(style="--i:5;")
+            img(src="assets/i/galler-3d/5.jpg")
+        span(style="--i:6;")
+            img(src="assets/i/galler-3d/6.jpg")
+        span(style="--i:7;")
+            img(src="assets/i/galler-3d/7.jpg")
+        span(style="--i:8;")
+            img(src="assets/i/galler-3d/8.jpg")
+
+    include ../includes/scripts/ie-scripts
+
+block scripts
+    script(src="assets/libs/jquery-easy-scroll/jquery.easeScroll.js")
