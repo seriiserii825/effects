@@ -138,6 +138,11 @@ h6 {
   padding: 0;
 }
 
+.main-header {
+  position: relative;
+  z-index: 1000;
+}
+
 img {
   max-width: 100%;
   height: auto;
