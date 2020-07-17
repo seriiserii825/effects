@@ -527,8 +527,8 @@ p {
   height: 200px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-animation: animate 20s linear infinite;
-  animation: animate 20s linear infinite;
+  -webkit-animation: animateGallery 20s linear infinite;
+  animation: animateGallery 20s linear infinite;
 }
 
 .gallery-3d span {
@@ -555,7 +555,7 @@ p {
   object-fit: cover;
 }
 
-@-webkit-keyframes animate {
+@-webkit-keyframes animateGallery {
   0% {
     -webkit-transform: perspective(1000px) rotateX(0deg) rotateY(45deg);
     transform: perspective(1000px) rotateX(0deg) rotateY(45deg);
@@ -566,7 +566,7 @@ p {
   }
 }
 
-@keyframes animate {
+@keyframes animateGallery {
   0% {
     -webkit-transform: perspective(1000px) rotateX(0deg) rotateY(45deg);
     transform: perspective(1000px) rotateX(0deg) rotateY(45deg);
@@ -654,6 +654,17 @@ p {
   background-repeat: repeat-x;
   -webkit-animation: animateGrass .2s linear infinite;
   animation: animateGrass .2s linear infinite;
+}
+
+@-webkit-keyframes animate {
+  0%, 100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+  50% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
 }
 
 @keyframes animate {
