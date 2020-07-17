@@ -1,0 +1,11 @@
+.page-404 {
+  min-height: 100vh;
+  background: linear-gradient(0deg, #fff, #03a9f4);
+  &__sky {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+  }
+}

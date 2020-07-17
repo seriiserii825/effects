@@ -1,5 +1,3 @@
-"use strict";
-
 $(function () {
   /*
       https://www.jqueryscript.net/animation/Smooth-Mouse-Wheel-Scrolling-Plugin-With-jQuery-easeScroll.html
@@ -18,26 +16,25 @@ $(function () {
     touchpadSupport: true,
     fixedBackground: true
   });
-  var mainMenu = $('#js-main-menu');
+  let mainMenu = $('#js-main-menu');
 
-  var showSubMenu = function showSubMenu() {
+  let showSubMenu = function(){
     $('#js-main-menu > li > a').on('click', function (e) {
-      if ($(this).next().hasClass('sub-menu')) {
-        e.preventDefault();
-        $(this).next().slideToggle();
-      }
+
+    	if($(this).next().hasClass('sub-menu')){
+    	  e.preventDefault();
+          $(this).next().slideToggle();
+        }
     });
   };
-
   showSubMenu();
 
-  var sandwitch = function sandwitch() {
+  let sandwitch = function () {
     $('.sandwitch').on('click', function () {
       mainMenu.toggleClass('active');
       $(this).toggleClass('sandwitch--active');
     });
   };
-
   sandwitch();
 });
 

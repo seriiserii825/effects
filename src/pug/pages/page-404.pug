@@ -1,0 +1,34 @@
+extends template
+
+block css
+    //- link(rel="stylesheet" type="text/css" href="assets/i/svg/bg/css/sprite.css")
+    link(rel="stylesheet" type="text/css" href="assets/css/my.css")
+
+block title
+    title Main
+
+block content
+    include ../includes/mixins
+    .hidden
+        include ../../../build/assets/i/svg/inline/sprite.svg
+
+    include ../includes/header
+
+    .page-404
+        .page-404__sky
+            h2.page-404__title
+                span 4
+                span 0
+                span 4
+            .page-404__grass
+            img.page-404__plane(src="assets/i/page-404/plane-mirror.png")
+        .page-404__field
+            h2.page-404__field-title Opps.. looks you got lost.
+            a.page-404__link(href="index.html") Go home
+
+
+
+    include ../includes/scripts/ie-scripts
+
+block scripts
+    script(src="assets/libs/jquery-easy-scroll/jquery.easeScroll.js")
